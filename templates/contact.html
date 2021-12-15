@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}
+Contact
+{% endblock title %}
+
+
+{% block body %}
+    <div class="container my-4">
+        <form method="post" action="/contact">  
+          
+        <label> Name: </label>         
+        <input type="text" name="name" size="15"/> <br> <br>  
+        <label> Email: </label>     
+        <input type="text" name="email" size="15"/> <br> <br>  
+        <label>  Phone :  </label>  
+        <input type="text" name="phone"  value="+91" size="2"/>   
+        <input type="text" name="phone" size="10"/> <br> <br>  
+        
+        <input type="button" value="Submit"/>  
+    </form> 
+         
+    
+    
+    </div>
+{% endblock body %}
