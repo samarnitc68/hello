@@ -36,3 +36,4 @@ class Entry(models.Model):
     def __str__(self) -> str:
         return self.headline
 # end of program
+#new line added
